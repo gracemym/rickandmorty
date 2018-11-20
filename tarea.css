@@ -42,14 +42,7 @@ ul {
     margin: auto;
 }
 
-.logo {
-    width: 20%;
-    height: 150px;
-    background-image: url(../tarea1/logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
 
-}
 .banner { 
     
     border: solid; 
@@ -162,5 +155,31 @@ ul {
 
 }
 
+
+@media screen and (max-width: 959px) {
+.container {
+    width: 100%;
+    }
+#navbar {
+    width: 100%;}
+
+.centrado img {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 640px) {
+ .container {
+  width: 100%;
+   }
+#navbar {
+ width: 100%;
+}
+    
+.centrado img {
+    width: 100%;
+}
+    
+}
 
 
